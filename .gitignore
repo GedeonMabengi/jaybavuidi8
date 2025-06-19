@@ -1,0 +1,4 @@
+node_modules/
+/folder
+package-lock.json
+src/inspira/

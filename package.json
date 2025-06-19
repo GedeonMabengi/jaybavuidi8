@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@mojs/core": "^1.3.0",
+    "@tailwindcss/cli": "^4.0.3",
+    "gsap": "^3.12.7",
+    "in-view": "^0.6.1",
+    "tailwindcss": "^4.0.3",
+    "three": "^0.175.0"
+  },
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/assets/css/input.css -o ./src/assets/css/style.css --minify",
+    "start": "parcel serve src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.4",
+    "vite": "^6.3.5"
+  }
+}
